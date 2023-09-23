@@ -1,0 +1,105 @@
+body {
+    background-image: url("repeating\ pattern.jpg");
+    background-size: 400px;
+    text-align: center;
+    color:white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.email,.discord { 
+    
+    font-size: 1.200em;
+}
+img{
+    width:200px;
+    float: initial;
+    
+}
+p {
+    margin: 50px;
+}
+
+.firstSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.myself{
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.200em;
+    background-color: black;
+}
+h2 {
+    padding-top: 25px;
+    font-size: 1.775em;
+}
+.introduction{
+    padding-top:90px ;
+}   
+
+ol{
+    padding-top: 20px;
+    height: 130px;
+    border: solid 2px;
+    border-radius: 20px;
+    display:table;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.100em;
+    background-color: black;
+    padding-right: 20px;
+    
+}
+.hobby{
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: rgb(229, 116, 240);
+    padding: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    font-size: 1.200em;
+}
+.fact{
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: rgb(31, 227, 146);
+    padding: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    font-size: 1.200em;
+}
+ul{
+    padding-top: 20px;
+    height: 130px;
+    border: solid 2px;
+    border-radius: 20px;
+    display:table;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.100em;
+    background-color: black;
+    padding-right: 20px;
+}
+a:link {
+    color:aquamarine;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color:pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(31, 227, 146);
+    background-color: transparent;
+    text-decoration: underline;
+
+}
